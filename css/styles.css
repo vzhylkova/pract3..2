@@ -10,8 +10,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    display: flex;
+    
+   
 }
 
 h1 {
@@ -25,12 +25,14 @@ h1 {
 .blocks {/*margin-left: 22%;
     display: inline-block;
     margin-bottom: 50px;*/
+    margin: 0 auto;
    box-sizing: border-box;
-   
-   flex-wrap: wrap;
+    display: flex;
+   align-content: center;
    justify-content: center;
-    width: 71vw;
-
+   flex-wrap: wrap;
+    width: auto;
+    
   
 }
 
