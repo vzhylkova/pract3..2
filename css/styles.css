@@ -22,30 +22,28 @@ h1 {
     height: auto;
 }
 
-.blocks {/*margin-left: 22%;
-    display: inline-block;
-    margin-bottom: 50px;*/
-    margin: 0 auto;
-   box-sizing: border-box;
+.blocks {
     display: flex;
    align-content: center;
    justify-content: center;
    flex-wrap: wrap;
-    width: auto;
+
+   box-sizing: border-box;
+ 
     
   
 }
 
 .block {
     margin: 0;
-    padding: 20px;
-    height: 35vh;
-    width: 35vw;
+    padding: 1.5%;
+    height: 44vh;
+    width: 49vw;
     box-sizing: border-box;
-    border-bottom: 2px solid #fb0000;
-    border-left: 2px solid #fb0000;
+    border: 2px solid #ff0000;
+
     float: left;
-    overflow: auto;
+   
 }
 
 li:nth-child(even) {
@@ -53,14 +51,24 @@ li:nth-child(even) {
 
 }
 
-.block:nth-child(2n) {
-    border-right: 2px solid #fb0000;
-
+.block:nth-child(5n-4) {
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
 }
 
-.block:nth-child(-n+2) {
-    border-top: 2px solid #fb0000;
+.block:nth-child(5n-3) {
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+}
 
+.block:nth-child(4n) {
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.block:nth-child(3n) {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
 }
 
 h2 {
